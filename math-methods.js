@@ -37,6 +37,7 @@ console.log(Math.sqrt(9));
 
 let randomNumber = Math.random();
 
+
 console.log(randomNumber);
 
 if (randomNumber > 0.5) {

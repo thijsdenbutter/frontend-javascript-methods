@@ -52,6 +52,7 @@ console.log(story.includes('Fantastisch'));
 console.log(story.split(' Fantastisch, nietwaar')[0]);
 
 
+
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
 // * Vervang het dollar-teken voor een euro-teken
