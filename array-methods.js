@@ -15,6 +15,9 @@ console.log(cookieIngredients);
 
 const pizzas = ["Hawai", "Margherita"];
 
+pizzas.push('Salami');
+console.log(pizzas);
+
 
 
 /* Opdracht 2: */
@@ -24,12 +27,16 @@ const pizzas = ["Hawai", "Margherita"];
 
 const brownieIngredients = ["Noten", "Eieren", "Bloem", "Cacao", "Chocoladestukjes", "Bakpoeder"];
 
+console.log(brownieIngredients.shift());
+console.log(brownieIngredients);
 
 /* Opdracht 3: */
 // Draai de volgorde van onderstaande array met namen om en log de gehele array in de terminal om te kijken is het gelukt is
 // ---- Verwachte uitkomst: [ 'Piet', 'Jan', 'Henk' ]
 
 const names = ["Henk", "Jan", "Piet"];
+
+console.log(names.reverse());
 
 
 
@@ -39,5 +46,8 @@ const names = ["Henk", "Jan", "Piet"];
 
 const cities = ["Utrecht", "Maastricht", "Eindhoven"];
 
+cities.splice(1,0,"Amsterdam")
+
+console.log(cities);
 
 

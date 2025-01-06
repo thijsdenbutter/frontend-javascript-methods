@@ -13,6 +13,8 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
+console.log(fruit.length > vegetable.length);
+
 
 
 /* Opdracht 2 */
@@ -20,7 +22,10 @@ const vegetable = "Aardappel";
 //  Tip: bedenk 1 manier die voor beide woorden zou werken.
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
-
+let stringToLog = fruit;
+console.log(stringToLog.charAt(stringToLog.length - 1));
+stringToLog = vegetable
+console.log(stringToLog.charAt(stringToLog.length - 1));
 
 
 /* Opdracht 3 */
@@ -29,7 +34,7 @@ const vegetable = "Aardappel";
 
 const userInput = "  De kat krabt de krullen van de trap ";
 
-
+console.log(userInput.trim());
 
 /* Opdracht 4 */
 // Check of het woord "Fantastisch" in onderstaande zin voorkomt en log dit in de terminal.
@@ -37,12 +42,14 @@ const userInput = "  De kat krabt de krullen van de trap ";
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
 
+console.log(story.includes('Fantastisch'));
 
 
 /* Opdracht 5 */
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
 
+console.log(story.split(' Fantastisch, nietwaar')[0]);
 
 
 /* Opdracht 6 */
@@ -54,7 +61,7 @@ const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch,
 
 const price = "$35.59";
 
-
+console.log(price.replace('$','€').replace('.',','));
 
 
 
